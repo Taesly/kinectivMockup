@@ -1,0 +1,144 @@
+/* .nav-item.item1:hover {
+  border-bottom: 3px solid orange;
+} */
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: orange;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.nav-link.active {
+  border-bottom: 4px solid rgba(0,0,0,0) ;
+  padding-bottom: 5px;
+}
+
+
+.navbar-text.phone1 {
+  border-bottom: 4px solid rgba(255,255,255,0);
+}
+
+.navbar-text.phone1 {
+  margin-top: 0px;
+  margin-bottom: -11px;
+  margin-right: 25px;
+  color: #15392d;
+  font-size: 20px;
+  border-bottom: 4.0px none rgba(21,57,45,0.42);
+}
+
+.navbar-text.phone1 {
+  border-bottom-style: solid;
+  border-bottom-color: rgba(21,57,45,0);
+  font-size: 20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-left: 114px;
+  margin-right: -6px;
+}
+
+.insta:hover, .faceB:hover {
+
+border-bottom: 4px solid orange;
+color: orange !important;
+margin-bottom: 6px;
+padding-bottom: 0;
+
+}
+
+.textLink{
+
+  text-decoration: none;
+  color: #15392d;
+}
+
+.textLink:hover {
+
+  color: orange !important;
+  text-decoration: none;
+  border-bottom: solid 1px orange !important;
+
+}
+
+.pnumber {
+
+font-weight: 400;
+font-size: 20px;
+color: #15392d;
+
+}
+
+.btn-h:hover {
+
+  border-bottom: solid blue 4px !important;
+}
+
+.buttonOne {
+
+  border-radius: 0;
+  padding-top: 11px;
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  background: #f27d13 !important;
+  border-color: #f27d13 !important;
+  border: solid 2px #f27d13 !important;
+}
+
+.buttonOneClick{
+
+  border-radius: 0;
+  padding-top: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  color: rgb(11,62,45) !important;
+  background: #fef5ec !important;
+  border-width: 0;
+  border-color: rgb(255,255,255) !important;
+}
+
+.buttonTwo {
+
+  border-radius: 0;
+  padding-top: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  color: rgb(11,62,45) !important;
+  background: #fef5ec !important;
+  border-width: 0;
+  border-color: rgb(255,255,255) !important;
+}
+
+.buttonTwoClick {
+
+  border-radius: 0;
+  padding-top: 11px;
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  background: #f27d13 !important;
+  border-color: #f27d13 !important;
+}
+
